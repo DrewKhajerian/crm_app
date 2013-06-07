@@ -4,7 +4,6 @@ class Database
 
 	attr_accessor :database_array
 	
-	
 	def initialize
 		@database_array = []
 	end
