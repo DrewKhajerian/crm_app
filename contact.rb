@@ -3,9 +3,9 @@ class Contact
 	@@new_id = 0
 	attr_accessor :id, :first_name, :last_name, :email, :notes
 	
-	def initialize(first,last,email,notes)
+	def initialize(id,first,last,email,notes)
 		# id will increment each time a new contact is created
-		@id = id_counter
+		@id = id
 		@first_name = first
 		@last_name = last
 		@email = email
